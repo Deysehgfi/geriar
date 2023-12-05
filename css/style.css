@@ -23,6 +23,8 @@ body{
 .barra-nav{
     text-align: end;
     box-shadow: black;
+    margin: -50px;
+    margin-right: 50px;
 }
 
 .nav{
@@ -35,7 +37,8 @@ body{
 }
     
 .nav-link{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
     text-decoration: none;
     color: var(---secundaria-clara);
     font-size: 20px;
@@ -46,7 +49,8 @@ body{
     color: var(---secundaria-clara);
     background-color: var(---primaria-escura);
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size: 30px;
     border: solid 5px var(---primaria-escura);
     border-radius:30px;
@@ -60,6 +64,12 @@ a:hover{
 .home{
     display: flex;
     align-items:center;
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 /* .corpo-principal{
    display: flex;
@@ -75,42 +85,73 @@ a:hover{
    
 }
 
+.img-1{
+    height: 400px;
+    width: 400px;
+    margin: 5px 0px 0px 10px; 
+   
+}
+
+.img-3{
+   margin: 5px 0px 0px 10px;
+}
+ 
+
 h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
     color: var(---primaria);
     font-size: 60px;
+}
+
+h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .paragrafo0{
     color: var(---primaria-escura);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
     text-align: start;
-    width: 450px;} 
+    width: 450px;}
+    
+
+.paragrafo1{
+    color:var(---preto) ;
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+} 
 
 
     .paragrafo2{
         color: var(---secundaria-clara);
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Fira Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: space-around;
     } 
-    .paragrafo1{
-        color:var(---preto) ;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+
+
+
+    .paragrafo3{
+        color: var(---preto);
+        font-family: 'Fira Sans', sans-serif;
+        font-family: 'Kanit', sans-serif;
         font-size: 20px;
-    } 
+        width: 600px;
+        text-align: center;}
+  
 
-    .logo{
-        color: var(---secundaria-clara);
-        font-size: 40px;
-    }
-
+    
 
     header{
         box-shadow: inset black;
@@ -126,7 +167,8 @@ h1{
         color: var(---secundaria-clara);
         text-align: center;
         font-size: 50px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family:'Fira Sans', sans-serif;
+        font-family: 'Kanit', sans-serif;
         background-color: var(---primaria-escura);
     }
 
@@ -140,14 +182,57 @@ h1{
     .X{
         color: var(---seundaria2);
     }
+footer{
+    margin-top: 50px;
+  
+    
+   
+}
 
-
-    .img-1{
-        height: 400px;
-        width: 400px;
-        margin: 5px 0px 0px 10px; 
-       
+    .box-1{
+        background-color: var(---primaria-clara);
+        margin-top: -20px;
+        border-radius: 15px; 
+        height: 350px;
+        opacity: 70%;
     }
 
-     
+    .box-2{
+        background-color: var(---primaria);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 60px;
+        height: 200px;
+
+       
+        
+
+    }
+.p{
+    text-align: center;
+    color: var(---secundaria-clara);
+}
+
+.contact-text{
+    color: var(---secundaria-clara);
+    display: flex;
+    align-items:center;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+.voltar{
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    color: var(---primaria-escura);
+}
+
+
 
