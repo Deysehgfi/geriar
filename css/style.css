@@ -1,0 +1,153 @@
+/*color -----------------*/
+:root{ 
+    
+  ---primaria: rgb(145, 0, 157);
+---primaria-escura: rgba(75, 0, 82, 0.925);;
+---primaria-clara: rgb(181, 41, 194);
+---secudaria:rgb(250, 235, 215);
+---secundaria-clara: rgb(254, 245, 233);
+---secundaria-escura: rgb(254, 215, 163);
+---seundaria2:rgba(224, 192, 150, 0.692);}
+
+main{
+    background-color: var(---seundaria2);
+    margin-top: 50px;
+    
+}
+body{
+   background-color: var(---secudaria);
+
+   
+}
+
+.barra-nav{
+    text-align: end;
+    box-shadow: black;
+}
+
+.nav{
+    background: var(---primaria);
+        padding: 30px;
+        word-spacing: 30px;
+        border-radius: 10px;
+        height: 100px;
+        
+}
+    
+.nav-link{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: var(---secundaria-clara);
+    font-size: 20px;
+    align-items: flex-end;}
+    
+
+.nav-link2{
+    color: var(---secundaria-clara);
+    background-color: var(---primaria-escura);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border: solid 5px var(---primaria-escura);
+    border-radius:30px;
+}
+    
+a:hover{
+    font-size: 25px;
+    color: var(---secundaria-clara);
+    transition: 1s;}
+
+.home{
+    display: flex;
+    align-items:center;
+}
+/* .corpo-principal{
+   display: flex;
+   flex-direction: row;
+} */
+
+
+.img{
+    
+    height: 650px;
+    width: 450px;
+    margin: 25px  60px 25px 300px;
+   
+}
+
+h1{
+    color: var(---primaria);
+    font-size: 60px;
+}
+
+
+.paragrafo0{
+    color: var(---primaria-escura);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    width: 450px;} 
+
+
+    .paragrafo2{
+        color: var(---secundaria-clara);
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    } 
+    .paragrafo1{
+        color:var(---preto) ;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 20px;
+    } 
+
+    .logo{
+        color: var(---secundaria-clara);
+        font-size: 40px;
+    }
+
+
+    header{
+        box-shadow: inset black;
+    }
+
+
+    .logo{
+        height: 100px; 
+        width: 130px;
+     }
+
+     .pergunta{
+        color: var(---secundaria-clara);
+        text-align: center;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: var(---primaria-escura);
+    }
+
+ 
+.corpo-principal2{
+
+    display: flex;
+    align-items:center;
+    justify-content: space-around;}
+
+    .X{
+        color: var(---seundaria2);
+    }
+
+
+    .img-1{
+        height: 400px;
+        width: 400px;
+        margin: 5px 0px 0px 10px; 
+       
+    }
+
+     
+
