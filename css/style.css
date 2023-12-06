@@ -9,9 +9,10 @@
 ---secundaria-escura: rgb(254, 215, 163);
 ---seundaria2:rgba(224, 192, 150, 0.692);}
 
-main{
+.main{
     background-color: var(---seundaria2);
     margin-top: 50px;
+    padding: 60px;
     
 }
 body{
@@ -23,14 +24,15 @@ body{
 .barra-nav{
     text-align: end;
     box-shadow: black;
+    display: block;
     margin: -50px;
     margin-right: 50px;
+    word-spacing: 40px;
 }
 
 .nav{
     background: var(---primaria);
-        padding: 30px;
-        word-spacing: 30px;
+    margin-right: 20px;
         border-radius: 10px;
         height: 100px;
         
@@ -67,6 +69,7 @@ a:hover{
 }
 
 .sobre{
+    background-color: var(---seundaria2);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -107,6 +110,10 @@ h1{
 h4{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.mensagem1{
+    text-align: start;
 }
 
 
@@ -234,5 +241,87 @@ footer{
     color: var(---primaria-escura);
 }
 
+ 
+.button-google{
+    border-radius: 25px;
+    width: 500px;
+    height: 50px;
+    border: var(---grey) solid 4px;
+    margin-bottom: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+   
+  }
+    .button-login{
+      border-radius: 25px;
+      width: 500px;
+      height: 50px;
+      color: white;
+      background-color:var(---primaria);
+      border: var(---primaria);
+      font-family: 'Kanit', sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      
+    }
+  h4{
+      color: var(---black);
+       margin-left: 60px;
+       padding-inline-start: 2px;
+      
+    }
+    .button-cadastro{
+      width: 230px;
+      height: 50px;
+      border-radius: 25px;
+      background-color: var(---primaria-escura);
+      color: var(---white);
+      font-family: 'Kanit', sans-serif;
+      font-weight:400;
+      
+  }
 
+      .box-cadastro{
+        color: var(---secundaria-clara);
+          display: flex;
+          align-items: flex-end;
+          justify-content: end;
+          margin: -50px;
+          margin-bottom:4px;
+          
+          
+      }
 
+   
+
+    .img-google{
+      width: 50px;
+      height: 35px;
+      margin: -10px;
+      word-spacing: 10px;
+      
+    }
+    .img-cadastro{
+      width:30px ;
+      height: 30px;
+      margin: -10px;
+      margin-right: 3px;        
+    }
+
+    .subtitulos{
+        color:var(---black);
+        font-size: 50px;
+  
+    }
+    
+    
+    .home-cadastro-login{
+        color: var(---primaria-escura);
+        font-family: 'Kanit', sans-serif;
+        text-align: start;
+        width: 450px;
+        
+      } 
+    
+    
